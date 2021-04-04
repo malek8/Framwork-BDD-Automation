@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 3134257300,
+  "duration": 4326316400,
   "status": "passed"
 });
 formatter.scenario({
@@ -55,28 +55,43 @@ formatter.step({
   "name": "Redirection vers la page Home de l\u0027application OrangeHRM",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "AuthentificationStepDefinition.jOuvreLApplicationOrangeHRM()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 1313699600,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "AuthentificationStepDefinition.jeSaisiLeUsername()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 54700,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "AuthentificationStepDefinition.jeSaisiLeMotDePasse()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 36500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AuthentificationStepDefinition.jeCliqueSurLeBoutonLogin()"
+});
+formatter.result({
+  "duration": 112900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AuthentificationStepDefinition.redirectionVersLaPageHomeDeLApplicationOrangeHRM()"
+});
+formatter.result({
+  "duration": 93800,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 1981309300,
+  "duration": 2303914800,
   "status": "passed"
 });
 });
